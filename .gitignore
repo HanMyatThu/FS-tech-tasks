@@ -1,0 +1,4 @@
+# For API repo
+
+backend/node_modules
+backend/.env
