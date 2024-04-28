@@ -16,11 +16,13 @@ const UserSchema = new mongoose.Schema({
   imageUrl: {
     type: String,
   },
-  tokens: [{
-    token: {
-      type: String
+  tokens: [
+    {
+      token: {
+        type: String
+      },
     }
-  }]
+  ],
 })
 
 export const User = mongoose.model('users', UserSchema)
