@@ -2,3 +2,32 @@
 
 backend/node_modules
 backend/.env
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# For React Native Repo
+quiz/node_modules/
+quiz/.gitignore
+# Expo
+quiz/.expo/
+quiz/dist/
+quiz/web-build/
+
+# Native
+quiz/*.orig.*
+quiz/*.jks
+quiz/*.p8
+quiz/*.p12
+quiz/*.key
+quiz/*.mobileprovision
+
+# Metro
+quiz/.metro-health-check*
+# macOS
+quiz/.DS_Store
+quiz/*.pem
+
+# local env files
+quiz/.env*.local
+
+# typescript
+quiz/*.tsbuildinfo
